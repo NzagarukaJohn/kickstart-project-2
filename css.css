@@ -1,0 +1,346 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans);
+ 
+/* Reset some default styles */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+   background-color: white;
+}
+
+/* Section 1: Logo and Menu */
+header {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+}
+.header-container{
+  width:70%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 20px;
+  color: #f9faf8;
+}
+.header-logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+.logo{
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+nav ul {
+  list-style: none;
+  align-items: end;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.three {
+  background-color: #e5e7eb;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.section-three{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+.section-three-a p{
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+.section-three-b{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+.section-three-b{
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+  font-weight: bold;
+}
+.box-one{
+  height: 100%;
+  border: 2px solid #3882F6;
+    border-radius: 5px;
+    width: 100%;
+} 
+
+/* section four */
+.section-four {
+  background-color: #f8f8f8;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-four-container{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3882f6;
+  border-radius: 5px;
+}
+.section-four-container-right{
+  padding-right: 7rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.section-four-container-left{
+  padding-left: 7rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.section-four-container-left h3{
+  color: #f8f8f8;
+}
+.section-four-container-left p {
+  font-size: 16px;
+  color: #f8f8f8;
+  margin-top: -15px;
+
+}
+
+.section-four-container-right .signup {
+  color: #fff;
+  border: 2px solid ;
+  padding: 8px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: none;
+  font-weight: bold;
+}
+.one {
+  background-color: #1f2937;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  width: 70%;
+}
+
+.box-left {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.box-left h2{
+   color:#f9faf8;
+   font-size: 48px;
+   font-weight: 400;
+}
+.box-right {
+  margin-left: 7rem;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  background: #888;
+  border-radius:3px;
+}
+
+.box-one img{
+object-fit:cover;
+height: 100%;
+}
+
+.box-left h2 {
+  font-size: 24px;
+}
+
+.box-left p {
+  color: #e5e7eb;
+  font-size: 14px;
+  width: 90%;
+}
+.box-left .signup{
+  background: #3882f6;
+  color: #f9faf8;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 5px;
+}
+
+.box-right img {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+/* Section 4: Footer */
+footer {
+  background-color:#1F2937;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+a {text-decoration: none;}
+
+.boxes h1{text-align: center;}
+.content .boxs{
+    background-color:#6198f3;
+    height:auto;
+    width: 95%;
+    justify-content:center;
+    margin-left:2rem;
+    display: flex;
+}
+
+.boxes .box{
+
+
+border-radius: 10px;
+
+}
+.content .boxs p{text-align: left; margin-left: 2rem;}
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+button{
+  width: 100px;
+    height: 30px;
+    margin-top: 2rem;
+    border-radius: 5px;
+    background: white;
+    /* margin-left: 40rem; */
+    /* margin-right: 3rem; */
+  
+}
+button a{
+  color:black;
+}
+.btn{
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  color: yellow;
+  background:#6198f3;
+  margin-left: 4rem;
+  border: 2px solid white;
+}
+.btn a{color:white;}
+button a:hover{background: goldenrod;}
+
+@media(max-width:1200px){
+
+  html{
+      font-size: 55%;
+  }
+  .boxes {
+    width:30px;
+    flex-direction: column;
+    width: 100%
+  }
+  .content{
+      padding: 1rem 4rem;
+  }
+  .boxes .box img {
+    padding: 1rem 4rem;
+
+  }
+}
+
+@media (max-width:400px){
+ .boxes {
+      width:30px;
+      flex-direction: column;
+      width: 100%
+    }
+  }
+        
+        h1 {color: white;}
+          .paragraph p{color:white}
+          .content p{color:black;}
+      .right{
+        width: 70%;
+
+      }
+        
+      .left{
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;       
+      }
+      .boxs-container{
+        display: flex;
+        width: 85%; 
+      }
+      .heading {display:flex;
+      justify-content: center;}
+        .heading h1{
+          margin-bottom: -3rem;
+          text-align: left;
+       }
+
+       /* section two css */
+       .two {
+        background-color: #f8f8f8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .two-header{
+        display:flex ;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+    
+      .two-header h1{
+         margin-bottom: -3rem;
+         text-align: left;
+         color:black;
+      }
+      
+      .box-container {
+        display: flex;
+        width: 55%;
+        padding: 70px 0;
+      }
+      
+      .box {
+        width: 22%;
+        height: 100px;
+        text-align: center;
+        padding: 20px;
+      }
+      
+      .box-one {
+        width: 100%;
+        height: 100%;
+        border: 2px solid #3882f6;
+        margin: 0 auto 5px;
+        border-radius: 5px;
+        color:black;
+      }
+      
+      .box p {
+        font-size: 14px;
+        color:black;
+      }
+      .paragraph p{
+        font-size: 36px;
+        color: #1f2937;
+        font-style: italic;
+        display: flex;
+      }
